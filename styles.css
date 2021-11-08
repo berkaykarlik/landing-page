@@ -46,6 +46,7 @@ header div a {
   align-content: center;
   height: 500px;
   gap: 20px;
+  margin-bottom: 50px;
 }
 
 /* tex div */
@@ -76,4 +77,50 @@ header div a {
 /* hero image */
 #s1 img {
   flex: 1 1 0;
+}
+
+/* s2 image collection section style */
+
+#s2 {
+  background-color: white;
+  padding-left: 250px;
+  padding-right: 250px;
+  height: 500px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+#s2 p {
+  flex: 0 1 auto;
+}
+
+#s2 div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.image_container {
+  flex: 0 1 auto;
+  width: 200px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.image_container img {
+  width: 200px;
+  height: 200px;
+  flex: 0 0 66%;
+  border-style: solid;
+  border-radius: 12px;
+  border-color: #3882f6;
+}
+
+.image_container p {
+  flex: 0 0 33%;
+  font-size: 20px;
+  color: gray;
 }
