@@ -52,6 +52,7 @@ header div a {
 /* section 1 Hero, style */
 #s1 {
   background-color: #1f2937;
+  display: flex;
   justify-content: center;
   align-content: center;
   gap: 20px;
@@ -59,7 +60,7 @@ header div a {
 
 /* tex div */
 #s1 div {
-  flex: 1 1 0;
+  flex: 0 1 auto;
 }
 
 /* hero main text */
@@ -84,7 +85,7 @@ header div a {
 
 /* hero image */
 #s1 img {
-  flex: 1 1 0;
+  flex: 0 1 25%;
 }
 
 /* s2 image collection section style */
